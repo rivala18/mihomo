@@ -6,7 +6,7 @@
   ```shell
   cp mihomo /usr/local/bin
   ```
-- Unduh [config.yaml]([test](https://github.com/rivala18/mihomo/blob/main/config.yaml)) dan copy ke `/etc/mihomo`
+- Unduh [config.yaml](https://github.com/rivala18/mihomo/blob/main/config.yaml) dan copy ke `/etc/mihomo`
   ```shell
   cp config.yaml /etc/mihomo
 - Buat file konfigurasi systemd di `/etc/systemd/system/mihomo.service`
