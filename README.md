@@ -10,7 +10,7 @@
   ```shell
   cp config.yaml /etc/mihomo
 - Buat file konfigurasi systemd di `/etc/systemd/system/mihomo.service`
-  ```ini
+```ini
 [Unit]
 Description=mihomo Daemon, Another Clash Kernel.
 After=network.target NetworkManager.service systemd-networkd.service iwd.service
