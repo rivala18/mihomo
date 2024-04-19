@@ -1,2 +1,6 @@
 # mihomo
-Configuration Clash For Linux
+  Konfigurasi clash untuk linux
+# unduh
+# instalasi
+# konfigurasi
+
