@@ -1,5 +1,5 @@
-# mihomo
-  Konfigurasi clash untuk linux
+# Mihomo
+  Konfigurasi clash untuk linux menggunakan systemd
 # Konfigurasi
 - Unduh kernel [mihomo](https://github.com/MetaCubeX/mihomo/releases)
 - Ubah nama file menjadi `mihomo` dan copy ke `/usr/local/bin`
@@ -29,19 +29,19 @@ ExecReload=/bin/kill -HUP $MAINPID
 [Install]
 WantedBy=multi-user.target
 ```
-- Reload systemd command
+- Reload systemd
 
 ```shell
 systemctl daemon-reload
 ```
 
-- Enable service Mihomo command
+- Enable service Mihomo
 
 ```shell
 systemctl enable mihomo
 ```
 
-- Mulai mihomo dengan command
+- Mulai mihomo dengan
 
 ```shell
 systemctl start mihomo
